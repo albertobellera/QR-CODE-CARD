@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.big-container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
